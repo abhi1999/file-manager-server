@@ -1,5 +1,5 @@
 let config = {
-    fsRoot: __dirname+'/files',
+    fsRoot: __dirname+'/SharedFolders/files',
     rootName: 'Abhishek Demo Folder on API server',
     port: process.env.PORT || '3020',
     host: process.env.HOST || '0.0.0.0'
