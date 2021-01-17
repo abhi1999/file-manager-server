@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run start1",
     "start1": "node server.js",
-    "start": "concurrently \"npm run start1\" \"npm run start2\"",
-    "startold": "node node_modules/@syncfusion/ej2-filemanager-node-filesystem/filesystem-server.js -d ./sync",
     "start2": "node filesystem-server.js -d ./SharedFolders/sync"
   },
   "repository": {
